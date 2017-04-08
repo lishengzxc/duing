@@ -6,10 +6,11 @@ const svg = async function (ctx, next) {
     percent = 0
   } = ctx.query;
 
+  percent = Math.min(percent, 100);
+
   width = parseInt(width, 10) ;
   height = parseInt(height, 10);
-
-  percent = Math.min(percent, 100);
+  percent = parseInt(percent, 10);
 
   await ctx.render(type, {
     width, height, percent
