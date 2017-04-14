@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="<%= width %>" height="<%= width %>" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <circle 
+    cx="50%" 
+    cy="50%" 
+    r="<%= (width - width * 0.05) / 2 %>" 
+    fill="transparent" 
+    stroke-width="5%" 
+    stroke="#EBEBEB"
+  />
+  
+  <circle 
+    cx="50%" 
+    cy="50%" 
+    r="<%= (width - width * 0.05) / 2 %>" 
+    fill="transparent" 
+    stroke-width="5%" 
+    stroke="#01D48F"
+    stroke-dasharray="<%= ((width - width * 0.05) / 2) * 2 * 3.14 %>"
+    stroke-dashoffset="<%= (1 - percent / 100) * (((width - width * 0.05) / 2) * 2 * 3.14) %>"
+    stroke-linecap="round"
+  >
+    <animate 
+      attributeName="stroke-dashoffset"
+      from="<%= ((width - width * 0.05) / 2) * 2 * 3.14 %>"
+      to="<%= (1 - percent / 100) * (((width - width * 0.05) / 2) * 2 * 3.14) %>"
+      dur=".5s"
+    />
+  </circle>
+
+  <text x="<%= width * 0.5 %>" y="50%" fill="#01D48F" style="dominant-baseline: central; text-anchor: middle; font-size: 14px;"><%= percent %>%</text>
+</svg>
