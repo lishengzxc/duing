@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="<%= width %>" height="<%= width %>" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="<%= width %>" height="<%= width %>" viewBox="0 0 <%= width %> <%= height %>" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <circle 
     cx="50%" 
     cy="50%" 
@@ -28,5 +28,5 @@
     />
   </circle>
 
-  <text x="<%= width * 0.5 %>" y="50%" fill="#01D48F" style="dominant-baseline: central; text-anchor: middle; font-size: 14px;"><%= percent %>%</text>
+  <text x="<%= width * 0.5 %>" y="50%" fill="#01D48F" style="dominant-baseline: central; text-anchor: middle; font-size: 14px; font-weight: bold;"><%= percent %>%</text>
 </svg>
