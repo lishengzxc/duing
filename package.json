@@ -1,14 +1,14 @@
 {
   "name": "duing",
   "version": "1.0.0",
-  "description": "",
+  "description": "The status bar / image / badge of SVG generator server",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "lishengzxc",
+  "license": "MIT",
   "dependencies": {
     "koa": "^2.2.0",
     "koa-ejs": "^4.0.0",
