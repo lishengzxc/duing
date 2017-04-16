@@ -12,6 +12,22 @@
 ![](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
+## Deploy Run
+```bash
+$ docker build -t duing-image .
+$ docker run --rm --name duing -p 3000:3000 duing-image
+```
+> I can use [caddy](https://github.com/mholt/caddy) to make it in product environment awesome!
+
+## Dev
+```bash
+$ npm install
+$ npm run dev
+```
+
+## Contributing
+Welcome~
+
 ## License
 MIT License
 
