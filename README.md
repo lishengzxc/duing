@@ -1,5 +1,5 @@
 <div align="center">
- <img src="https://github.com/lishengzxc/duing/blob/master/logo.jpg?raw=true" width="300">
+  <img src="https://github.com/lishengzxc/duing/blob/master/logo.jpg?raw=true" width="300">
 </div>
 
 ---
@@ -12,12 +12,20 @@
 ![](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
+## Features
+| Type | Config | Url | Preview |
+| ------------- | ------------- | ----- | ----- |
+| Bar | percent, width, height | https://img.lishengcn.cn/progress?percent=20 | ![](https://img.lishengcn.cn/progress?percent=20) |
+| Circle | percent, width | https://img.lishengcn.cn/progress?percent=33&type=circle | ![](https://img.lishengcn.cn/progress?percent=33&type=circle) |
+| Checkbox | checked, size, color | https://img.lishengcn.cn/checkbox?checked=1 | ![](https://img.lishengcn.cn/checkbox?checked=1) ![](https://img.lishengcn.cn/checkbox?checked=1&color=EA6F5A) ![](https://img.lishengcn.cn/checkbox?color=FFBE00) |
+| ... | ... | ... | ... |
+
 ## Deploy Run
 ```bash
 $ docker build -t duing-image .
 $ docker run --rm --name duing -p 3000:3000 duing-image
 ```
-> I can use [caddy](https://github.com/mholt/caddy) to make it in product environment awesome!
+> I used [caddy](https://github.com/mholt/caddy) to make it in product environment well!
 
 ## Dev
 ```bash
@@ -27,6 +35,11 @@ $ npm run dev
 
 ## Contributing
 Welcome~
+
+## Donate
+You can get all "duing"s by **img.lishengcn.cn**. If it make you convenience, you may help me to get one or two stable and better server. (I don't mean now is not stable, now is stable enough for the current user)
+
+<img src="https://github.com/lishengzxc/duing/blob/master/qrcode.jpg?raw=true" width="180">
 
 ## License
 MIT License
