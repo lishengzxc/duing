@@ -4,7 +4,8 @@
   "description": "The status bar / image / badge of SVG generator server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\"",
+    "test": "mocha -t 5000 tests/*.test.js",
+    "ci": "istanbul cover _mocha -- -t 5000 tests/*.test.js",
     "dev": "nodemon index.js"
   },
   "author": "lishengzxc",
@@ -15,6 +16,10 @@
     "koa-router": "^7.1.1"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0"
   }
 }

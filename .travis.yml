@@ -1,2 +1,4 @@
 language: node_js
 node_js: stable
+script: 'npm run ci'
+after_script: 'npm i codecov && codecov'

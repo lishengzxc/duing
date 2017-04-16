@@ -7,6 +7,7 @@
 > The progress bar / status badge of SVG generator server
 
 ![](https://travis-ci.org/lishengzxc/duing.svg?branch=master)
+![](https://codecov.io/gh/lishengzxc/duing/branch/master/graph/badge.svg)
 ![](https://david-dm.org/lishengzxc/duing/dev-status.svg)
 ![](https://david-dm.org/lishengzxc/duing.svg)
 ![](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
