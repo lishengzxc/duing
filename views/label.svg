@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  style="border-radius: 5px"
+  width="<%= keyWidth + valueWidth + 20 %>" 
+  height="<%= size + 10 %>" 
+  viewBox="0 0 <%= keyWidth + valueWidth + 20 %> <%= size + 10 %>" 
+  version="1.1" xmlns="http://www.w3.org/2000/svg" 
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+
+  <svg width="<%= keyWidth + 10 %>" height="<%= size + 10 %>" viewBox="0 0 <%= keyWidth + 10 %> <%= size + 10 %>">
+    <rect width="<%= keyWidth + 10 %>" height="<%= size + 10 %>" fill="#<%= keyBgColor %>" />
+    <text x="50%" y="50%" fill="#<%= keyColor %>" style="dominant-baseline: central; text-anchor: middle; font-size: <%= size %>px;"><%= key %></text>
+  </svg>
+
+  <svg x="<%= keyWidth + 10 %>" width="<%= valueWidth + 10 %>" height="<%= size + 10 %>" viewBox="0 0 <%= valueWidth + 10 %> <%= size + 10 %>">
+    <rect width="<%= valueWidth + 10 %>" height="<%= size + 10 %>" fill="#<%= valueBgColor %>" />
+    <text x="50%" y="50%" fill="#<%= keyColor %>" style="dominant-baseline: central; text-anchor: middle; font-size: <%= size %>px;"><%= value %></text>
+  </svg>
+</svg>

@@ -18,6 +18,9 @@
 | Bar | percent, width, height | https://img.lishengcn.cn/progress?percent=20 | ![](https://img.lishengcn.cn/progress?percent=20) |
 | Circle | percent, width | https://img.lishengcn.cn/progress?percent=33&type=circle | ![](https://img.lishengcn.cn/progress?percent=33&type=circle) |
 | Checkbox | checked, size, color | https://img.lishengcn.cn/checkbox?checked=1 | ![](https://img.lishengcn.cn/checkbox?checked=1) ![](https://img.lishengcn.cn/checkbox?checked=1&color=EA6F5A) ![](https://img.lishengcn.cn/checkbox?color=FFBE00) |
+| Label | key, value, keyColor, valueColor, keyBgColor, valueBgColor, size | https://img.lishengcn.cn/label?key=解决率&value=100% | ![](https://img.lishengcn.cn/label?key=解决率&value=100%) ![](https://img.lishengcn.cn/label?key=PV&value=12300&keyBgColor=FFBE00) |
+| Dot (WIP) | ... | ... | ... |
+| Count (WIP) | ... | ... | ... |
 | ... | ... | ... | ... |
 
 ## Deploy Run
