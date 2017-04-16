@@ -10,7 +10,7 @@
 ![](https://codecov.io/gh/lishengzxc/duing/branch/master/graph/badge.svg)
 ![](https://david-dm.org/lishengzxc/duing/dev-status.svg)
 ![](https://david-dm.org/lishengzxc/duing.svg)
-![](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Features
@@ -42,7 +42,7 @@ $ npm run dev
 Welcome~
 
 ## Donate
-You can get all "duing"s by **img.lishengcn.cn**. If it make you convenience, you may help me to get one or two stable and better server. (I don't mean now is not stable, now is stable enough for the current user)
+You can get all "duing"s by **img.lishengcn.cn**. If it make you convenience, you may help me to get one or two stable and better server. (I don't mean now is not stable, now is stable enough for the current user.)
 
 <img src="https://github.com/lishengzxc/duing/blob/master/qrcode.jpg?raw=true" width="180">
 
@@ -68,3 +68,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+很强
