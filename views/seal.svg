@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="<%= valueWidth + 10 %>" 
+  height="<%= size + 10 %>" 
+  viewBox="0 0 <%= valueWidth + 10 %> <%= size + 10 %>" 
+  version="1.1" xmlns="http://www.w3.org/2000/svg" 
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  style="font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif"
+>
+  
+  <% if (!ghost) { %>
+  <rect 
+    width="<%= valueWidth + 10 %>" 
+    height="<%= size + 10 %>" 
+    rx="5"
+    ry="5"
+    fill="#<%= valueBgColor %>"
+  />
+  <text x="50%" y="50%" fill="#<%= valueColor %>" style="dominant-baseline: central; text-anchor: middle; font-size: <%= size %>px;"><%= value %></text>
+  <% } else { %>
+  <rect 
+    width="<%= valueWidth + 10 %>" 
+    height="<%= size + 10 %>" 
+    rx="5"
+    ry="5"
+    fill="transparent"
+    stroke-width="2"
+    stroke="#<%= valueBgColor %>"
+  />
+  <text x="50%" y="50%" fill="#<%= valueBgColor %>" style="dominant-baseline: central; text-anchor: middle; font-size: <%= size %>px;"><%= value %></text>
+  <% } %>
+
+</svg>

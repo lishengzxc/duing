@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="<%= width + 50 %>" height="<%= height %>" viewBox="0 0 <%= width + 50 %> <%= height %>" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="<%= width + 50 %>" height="<%= height %>" viewBox="0 0 <%= width + 50 %> <%= height %>" style="font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <rect width="<%= width %>" height="<%= height %>" style="fill: #EBEBEB;" rx="3" ry="3"/>
   <rect width="<%= percent * width / 100 %>" height="<%= height %>" style="fill: #01D48F;" rx="3" ry="3">
     <animate 

@@ -1,32 +1,27 @@
 const getWidth = require('../helper/').getWidth;
 
-const label = async function (ctx, next) {
+const seal = async function (ctx, next) {
   let {
-    key = 'key',
     value = 'value',
     size = 11,
-    keyBgColor = '01D48F',
-    valueBgColor = '555',
-    keyColor = 'FFF',
+    valueBgColor = '01D48F',
     valueColor = 'FFF',
+    ghost = false,
   } = ctx.query;
 
   size = parseInt(size, 10);
+  ghost = !!(+ghost);
 
-  let keyWidth = getWidth(key, size);
   let valueWidth = getWidth(value, size);
 
-  await ctx.render('label', {
+  await ctx.render('seal', {
+    ghost,
     size,
-    keyWidth,
     valueWidth,
-    keyBgColor,
     valueBgColor,
-    key,
     value,
-    keyColor,
     valueColor
   });
 };
 
-module.exports = label;
+module.exports = seal;
