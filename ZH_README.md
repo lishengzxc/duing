@@ -4,7 +4,7 @@
 
 ---
 
-> The progress bar / status badge of SVG generator server
+> 进度条图标 SVG 生成器服务
 
 ![](https://travis-ci.org/lishengzxc/duing.svg?branch=master)
 ![](https://codecov.io/gh/lishengzxc/duing/branch/master/graph/badge.svg)
@@ -13,8 +13,8 @@
 ![](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## Features
-| Type | Config | Url | Preview |
+## 功能
+| 类型 | 可配置参数 | Url | 预览 |
 | ------------- | ------------- | ----- | ----- |
 | Bar | percent, width, height | https://img.lishengcn.cn/progress?percent=25 | ![](https://img.lishengcn.cn/progress?percent=25) |
 | Circle | percent, width | https://img.lishengcn.cn/progress?percent=35&type=circle | ![](https://img.lishengcn.cn/progress?percent=35&type=circle) |
@@ -25,24 +25,24 @@
 | Count (WIP) | ... | ... | ... |
 | ... | ... | ... | ... |
 
-## Deploy Run
+## 部署
 ```bash
 $ docker build -t duing-image .
 $ docker run --rm --name duing -p 3000:3000 duing-image
 ```
-> I used [caddy](https://github.com/mholt/caddy) to make it in product environment well! (HTTPS, HTTP/2)
+> 我在生产环境使用 [caddy](https://github.com/mholt/caddy) 来提供稳定的服务！(HTTPS, HTTP/2)
 
-## Dev
+## 开发
 ```bash
 $ npm install
 $ npm run dev
 ```
 
-## Contributing
-Welcome~
+## 贡献
+欢迎~
 
-## Donate
-You can get all "duing"s by **img.lishengcn.cn**. If it make you convenience, you may help me to get one or two stable and better server. (I don't mean now is not stable, now is stable enough for the current user. But the service will be disable when deploying. It doesn't master by *200 from cache*)
+## 资助
+你可以通过 **img.lishengcn.cn** 得到所有的“duing”，如果它为你提供了方便，你或许可以帮助我获得1个或者2个更好更稳定云服务器。（我的意思并不是说目前不稳定，对于目前的用户来说是稳定的，可能在部署的时候会出现短暂的服务不可用情况。但是我又提供了 *200 from cache*）
 
 <img src="https://github.com/lishengzxc/duing/blob/master/qrcode.jpg?raw=true" width="180">
 
