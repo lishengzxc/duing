@@ -4,7 +4,7 @@
 
 ---
 
-> The progress bar / status badge of SVG generator server
+> The progress bar / status badge of SVG generator service
 
 ![](https://travis-ci.org/lishengzxc/duing.svg?branch=master)
 ![](https://codecov.io/gh/lishengzxc/duing/branch/master/graph/badge.svg)
