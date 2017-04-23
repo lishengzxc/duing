@@ -6,6 +6,7 @@
 
 > 进度条图标 SVG 生成器服务
 
+![](https://img.shields.io/npm/v/duing.svg)
 ![](https://travis-ci.org/lishengzxc/duing.svg?branch=master)
 ![](https://codecov.io/gh/lishengzxc/duing/branch/master/graph/badge.svg)
 ![](https://david-dm.org/lishengzxc/duing/dev-status.svg)
@@ -42,7 +43,7 @@ $ npm run dev
 欢迎~
 
 ## 资助
-你可以通过 **img.lishengcn.cn** 得到所有的“duing”，如果它为你提供了方便，你或许可以帮助我获得1个或者2个更好更稳定云服务器。（我的意思并不是说目前不稳定，对于目前的用户来说是稳定的，可能在部署的时候会出现短暂的服务不可用情况。但是我又提供了 *200 from cache*）
+你可以通过 **img.lishengcn.cn** 得到所有的“duing”，如果它为你提供了方便，你或许可以帮助我获得1个或者2个更好更稳定云服务器。（我的意思并不是说目前不稳定，对于目前的用户来说是稳定的，可能在部署的时候会出现短暂的服务不可用情况。但是我又提供了 *200 from cache* 来缓解这一情况）
 
 <img src="https://github.com/lishengzxc/duing/blob/master/qrcode.jpg?raw=true" width="180">
 
