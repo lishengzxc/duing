@@ -11,13 +11,12 @@ render(app, {
   viewExt: 'svg',
   layout: false,
   cache: false,
-  debug: true
+  debug: true,
 });
 
 app
   .use(router.routes())
   .use(router.allowedMethods());
-  
 
 app.listen(3000);
 

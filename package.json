@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha -t 5000 tests/*.test.js",
-    "ci": "istanbul cover _mocha -- -t 5000 tests/*.test.js",
-    "dev": "nodemon index.js"
+    "ci": "npm run lint && istanbul cover _mocha -- -t 5000 tests/*.test.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint --ext .js src tests"
   },
   "author": "lishengzxc",
   "license": "MIT",
@@ -17,6 +18,9 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
     "nodemon": "^1.11.0",

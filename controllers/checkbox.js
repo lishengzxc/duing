@@ -1,24 +1,24 @@
-const checkbox = async function (ctx, next) {
+const checkbox = async function (ctx) {
   let {
     size = 15,
     checked = false,
-    color = '01D48F'
   } = ctx.query;
 
+  const color = ctx.query.color;
   size = parseInt(size, 10);
   checked = !!(+checked);
 
-  let points = [
+  const points = [
     [0.13333333333333333, 0.5],
     [0.43333333333333335, 0.7333333333333333],
-    [0.8333333333333334, 0.23333333333333334]
+    [0.8333333333333334, 0.23333333333333334],
   ].map(value => value.map(item => item * size)).join(' ');
 
   await ctx.render('checkbox', {
     size,
     points,
     color,
-    checked
+    checked,
   });
 };
 

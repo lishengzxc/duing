@@ -1,18 +1,21 @@
 const getWidth = require('../helper/').getWidth;
 
-const seal = async function (ctx, next) {
+const seal = async function (ctx) {
   let {
-    value = 'value',
     size = 11,
+    ghost = false,
+  } = ctx.query;
+
+  const {
+    value = 'value',
     valueBgColor = '01D48F',
     valueColor = 'FFF',
-    ghost = false,
   } = ctx.query;
 
   size = parseInt(size, 10);
   ghost = !!(+ghost);
 
-  let valueWidth = getWidth(value, size);
+  const valueWidth = getWidth(value, size);
 
   await ctx.render('seal', {
     ghost,
@@ -20,7 +23,7 @@ const seal = async function (ctx, next) {
     valueWidth,
     valueBgColor,
     value,
-    valueColor
+    valueColor,
   });
 };
 
