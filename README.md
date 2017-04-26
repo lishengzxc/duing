@@ -31,7 +31,7 @@
 $ docker build -t duing-image .
 $ docker run --rm --name duing -p 3000:3000 duing-image
 ```
-> I used [caddy](https://github.com/mholt/caddy) to make it in product environment well! (HTTPS, HTTP/2)
+> I used [caddy](https://github.com/mholt/caddy) to make it in product environment well! (HTTPS, HTTP/2) Not only you can get service from **img.lishengcn.cn**, but also can deploy it by yourself.
 
 ## Dev
 ```bash

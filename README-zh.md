@@ -31,7 +31,7 @@
 $ docker build -t duing-image .
 $ docker run --rm --name duing -p 3000:3000 duing-image
 ```
-> 我在生产环境使用 [caddy](https://github.com/mholt/caddy) 来提供稳定的服务！(HTTPS, HTTP/2)
+> 我在生产环境使用 [caddy](https://github.com/mholt/caddy) 来提供稳定的服务！(HTTPS, HTTP/2) 你可以直接从 **img.lishengcn.cn** 获取服务，当然也可以自己部署它。
 
 ## 开发
 ```bash
