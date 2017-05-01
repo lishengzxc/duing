@@ -43,7 +43,7 @@ $ npm run dev
 Welcome~
 
 ## Donate
-You can get all "duing"s by **img.lishengcn.cn**. If it make you convenience, you may help me to get one or two stable and better server. (I don't mean now is not stable, now is stable enough for the current user. But the service will be disable when deploying. It doesn't master by *200 from cache*)
+You can get all "duing"s by **img.lishengcn.cn**. If it makes you feel convenient, you may help me to get one or two stable and better server. (I don't mean now is not stable, now is stable enough for the current user. But the service will be disable when deploying. It doesn't master by *200 from cache*)
 
 <img src="https://github.com/lishengzxc/duing/blob/master/qrcode.jpg?raw=true" width="180">
 
