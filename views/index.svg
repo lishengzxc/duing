@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="<%= width + 50 %>" height="<%= height %>" viewBox="0 0 <%= width + 50 %> <%= height %>" style="font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <rect width="<%= width %>" height="<%= height %>" style="fill: #EBEBEB;" rx="3" ry="3"/>
-  <rect width="<%= percent * width / 100 %>" height="<%= height %>" style="fill: #01D48F;" rx="3" ry="3">
+  <rect width="<%= percent * width / 100 %>" height="<%= height %>" style="fill: #<%= color %>;" rx="3" ry="3">
     <animate 
       attributeName="width"
       from="0"
@@ -12,6 +12,6 @@
 
   <svg x="<%= width %>" width="50" height="<%= height %>" viewBox="0 0 50 <%= height %>">
     <rect width="50" height="<%= height %>" style="fill: transparent;" />
-    <text x="50%" y="50%" fill="#01D48F" style="dominant-baseline: central; text-anchor: middle; font-size: 11px;"><%= percent %>%</text>
+    <text x="50%" y="50%" fill="#<%= color %>" style="dominant-baseline: central; text-anchor: middle; font-size: 11px;"><%= percent %>%</text>
   </svg>
 </svg>

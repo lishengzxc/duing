@@ -3,9 +3,14 @@ const svg = async function (ctx) {
     width = 80,
     height = 20,
     percent = 0,
+
   } = ctx.query;
 
-  const type = ctx.query.type || 'index';
+  const {
+    color = '01D48F',
+    type = 'index',
+  } = ctx.query;
+
   percent = Math.min(percent, 100);
 
   width = parseInt(width, 10);
@@ -13,7 +18,7 @@ const svg = async function (ctx) {
   percent = parseInt(percent, 10);
 
   await ctx.render(type, {
-    width, height, percent,
+    width, height, percent, color,
   });
 };
 

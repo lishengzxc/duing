@@ -17,8 +17,8 @@
 ## 功能
 | 类型 | 可配置参数 | Url | 预览 |
 | ------------- | ------------- | ----- | ----- |
-| Bar | percent, width, height | https://img.lishengcn.cn/progress?percent=25 | ![](https://img.lishengcn.cn/progress?percent=25) |
-| Circle | percent, width | https://img.lishengcn.cn/progress?percent=35&type=circle | ![](https://img.lishengcn.cn/progress?percent=35&type=circle) |
+| Bar | percent, width, height, color | https://img.lishengcn.cn/progress?percent=25 | ![](https://img.lishengcn.cn/progress?percent=25) (https://img.lishengcn.cn/progress?percent=33&color=2196f3) |
+| Circle | percent, width, color | https://img.lishengcn.cn/progress?percent=35&type=circle | ![](https://img.lishengcn.cn/progress?percent=35&type=circle) https://img.lishengcn.cn/progress?percent=10&color=2196f3&type=circle |
 | Checkbox | checked, size, color | https://img.lishengcn.cn/checkbox?checked=1 | ![](https://img.lishengcn.cn/checkbox?checked=1) ![](https://img.lishengcn.cn/checkbox?checked=1&color=EA6F5A) ![](https://img.lishengcn.cn/checkbox?color=FFBE00) |
 | Label | key, value, keyColor, valueColor, keyBgColor, valueBgColor, size | https://img.lishengcn.cn/label?key=解决率&value=99% | ![](https://img.lishengcn.cn/label?key=解决率&value=99%) ![](https://img.lishengcn.cn/label?key=PV&value=12400&keyBgColor=FFBE00) |
 | Seal | value, size, valueBgColor, valueColor, ghost | https://img.lishengcn.cn/seal?value=FIXED | ![](https://img.lishengcn.cn/seal?value=FIXED) ![](https://img.lishengcn.cn/seal?value=BUG&valueBgColor=EA6F5A) |

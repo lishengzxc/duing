@@ -4,10 +4,10 @@ const checkbox = async function (ctx) {
     checked = false,
   } = ctx.query;
 
-  const color = ctx.query.color;
   size = parseInt(size, 10);
   checked = !!(+checked);
 
+  const color = ctx.query.color || '01D48F';
   const points = [
     [0.13333333333333333, 0.5],
     [0.43333333333333335, 0.7333333333333333],
