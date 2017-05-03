@@ -20,8 +20,8 @@
 | Bar | percent, width, height, color | https://img.lishengcn.cn/progress?percent=25 | ![](https://img.lishengcn.cn/progress?percent=25) ![](https://img.lishengcn.cn/progress?percent=40&color=2196f3) |
 | Circle | percent, width, color | https://img.lishengcn.cn/progress?percent=35&type=circle | ![](https://img.lishengcn.cn/progress?percent=35&type=circle) ![](https://img.lishengcn.cn/progress?percent=40&color=2196f3&type=circle) |
 | Checkbox | checked, size, color | https://img.lishengcn.cn/checkbox?checked=1 | ![](https://img.lishengcn.cn/checkbox?checked=1) ![](https://img.lishengcn.cn/checkbox?checked=1&color=EA6F5A) ![](https://img.lishengcn.cn/checkbox?color=FFBE00) |
-| Label | key, value, keyColor, valueColor, keyBgColor, valueBgColor, size | https://img.lishengcn.cn/label?key=解决率&value=99% | ![](https://img.lishengcn.cn/label?key=解决率&value=99%) ![](https://img.lishengcn.cn/label?key=PV&value=12400&keyBgColor=FFBE00) |
-| Seal | value, size, valueBgColor, valueColor, ghost | https://img.lishengcn.cn/seal?value=FIXED | ![](https://img.lishengcn.cn/seal?value=FIXED) ![](https://img.lishengcn.cn/seal?value=BUG&valueBgColor=EA6F5A) |
+| Label | key, value, keyColor, valueColor, keyBgColor, valueBgColor, size | https://img.lishengcn.cn/label?key=解决率&value=99% | ![](https://img.lishengcn.cn/label?key=召回率&value=99%&t=3) ![](https://img.lishengcn.cn/label?key=UV&value=12400&keyBgColor=FFBE00&t=3) |
+| Seal | value, size, valueBgColor, valueColor, ghost | https://img.lishengcn.cn/seal?value=FIXED | ![](https://img.lishengcn.cn/seal?value=FIXED&t=3) ![](https://img.lishengcn.cn/seal?value=BUG&valueBgColor=EA6F5A&t=3) ![](https://img.lishengcn.cn/seal?value=DUING&valueBgColor=EA6F5A&t=1&ghost=1&t=3) |
 | Dot | width, color | https://img.lishengcn.cn/dot | ![](https://img.lishengcn.cn/dot) ![](https://img.lishengcn.cn/dot?color=EA6F5A) ![](https://img.lishengcn.cn/dot?color=FFBE00) |
 | Count (WIP) | ... | ... | ... |
 | ... | ... | ... | ... |

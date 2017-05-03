@@ -5,7 +5,7 @@
   viewBox="0 0 <%= keyWidth + valueWidth + 20 %> <%= size + 10 %>" 
   version="1.1" xmlns="http://www.w3.org/2000/svg" 
   xmlns:xlink="http://www.w3.org/1999/xlink"
-  style="border-radius: 5px; font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif"
+  style="border-radius: 5px; font-family: monospace"
 >
 
   <svg width="<%= keyWidth + 10 %>" height="<%= size + 10 %>" viewBox="0 0 <%= keyWidth + 10 %> <%= size + 10 %>">

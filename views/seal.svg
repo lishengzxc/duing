@@ -5,7 +5,7 @@
   viewBox="0 0 <%= valueWidth + 10 %> <%= size + 10 %>" 
   version="1.1" xmlns="http://www.w3.org/2000/svg" 
   xmlns:xlink="http://www.w3.org/1999/xlink"
-  style="font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif"
+  style="font-family: monospace"
 >
   
   <% if (!ghost) { %>
@@ -24,7 +24,7 @@
     rx="5"
     ry="5"
     fill="transparent"
-    stroke-width="2"
+    stroke-width="1"
     stroke="#<%= valueBgColor %>"
   />
   <text x="50%" y="50%" fill="#<%= valueBgColor %>" style="dominant-baseline: central; text-anchor: middle; font-size: <%= size %>px;"><%= value %></text>
