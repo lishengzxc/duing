@@ -6,7 +6,7 @@
       attributeName="width"
       from="0"
       to="<%= percent * width / 100 %>"
-      dur=".5s"
+      dur="0.8s"
     />
   </rect>
 

@@ -24,7 +24,7 @@
       attributeName="stroke-dashoffset"
       from="<%= ((width - width * 0.05) / 2) * 2 * 3.14 %>"
       to="<%= (1 - percent / 100) * (((width - width * 0.05) / 2) * 2 * 3.14) %>"
-      dur=".5s"
+      dur="0.8s"
     />
   </circle>
 
