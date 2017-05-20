@@ -9,6 +9,9 @@
         ],
         "func-names": [
             0
+        ],
+        "no-restricted-syntax": [
+            0
         ]
     }
 }
