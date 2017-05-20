@@ -1,14 +1,23 @@
 {
-    "extends": "airbnb-base",
-    "plugins": [
-        "import"
+  "extends": "airbnb-base",
+  "plugins": [
+    "import"
+  ],
+  "rules": {
+    "no-undef": [
+      0
     ],
-    "rules": {
-        "no-undef": [
-            0
-        ],
-        "func-names": [
-            0
-        ]
-    }
+    "func-names": [
+      0
+    ],
+    "no-restricted-syntax": [
+      0
+    ],
+    "no-mixed-operators": [
+      0
+    ],
+    "no-plusplus": [
+      0
+    ]
+  }
 }

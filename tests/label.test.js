@@ -1,7 +1,7 @@
 const request = require('supertest');
 const app = require('../');
 
-describe('checkbox', () => {
+describe('label', () => {
   it('200', (done) => {
     request(app.listen())
       .get('/label')

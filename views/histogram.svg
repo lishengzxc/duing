@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  style="font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif" 
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="<%= viewWidth + itemWidth + 30 %>" 
+  height="<%= viewHeight + 90 %>"
+  viewBox="0 0 <%= viewWidth + itemWidth + 30 %> <%= viewHeight + 90 %>"
+>
+  <text 
+    x="50%"
+    y="30"
+    style="font-size: 11px; font-family: monospace; text-anchor: middle;"
+  ><%= title %></text>
+
+  <line
+    x1="<%= itemWidth %>"
+    y1="60"
+    x2="<%= itemWidth %>"
+    y2="<%= viewHeight + 60 %>"
+    stroke-width="1" 
+    stroke-opacity="0.3"
+    stroke="black"
+  >
+  </line>
+
+  <line
+    x1="<%= itemWidth %>"
+    y1="<%= viewHeight + 60 %>"
+    x2="<%= itemWidth + viewWidth %>"
+    y2="<%= viewHeight + 60 %>"
+    stroke-width="1"
+    stroke-opacity="0.3"
+    stroke="black"
+  >
+  </line>
+
+  <% for (var i = 0; i < list.length; i ++) { %>
+    <text
+      x="<%= itemWidth * (i + 1.5) - list[i].textLength / 2 %>"
+      y="<%= viewHeight + 80 %>"
+      style="font-size: 11px; font-family: monospace;"
+    ><%= list[i].k %></text>
+
+    <svg
+      x="0"
+      y="<%= viewHeight + 60 - (list[i].v / maxValue) * viewHeight - 8 %>"
+
+      width="<%= itemWidth %>"
+      height="16"
+      viewBox="0 0 <%= itemWidth %> 16"
+
+    >
+      <rect
+        width="<%= itemWidth %>"
+        height="16"
+        fill="transparent"
+      ></rect>
+      <text
+        fill="#000"
+        x="90%"
+        y="50%"
+        style="font-size: 11px; font-family: monospace; dominant-baseline: central; text-anchor: end;"
+      ><%= list[i].v %></text>
+    </svg>
+
+    <line
+      x1="<%= itemWidth %>"
+      y1="<%= viewHeight + 60 - (list[i].v / maxValue) * viewHeight %>"
+      x2="<%= itemWidth + viewWidth %>"
+      y2="<%= viewHeight + 60 - (list[i].v / maxValue) * viewHeight %>"
+      stroke-width="0.5"
+      stroke-dasharray="5, 5"
+      stroke-opacity="0.5"
+      stroke="#<%= color %>"
+    >
+      <animate
+        attributeName="x2"
+        from="<%= itemWidth %>"
+        to="<%= itemWidth + viewWidth %>"
+        dur="0.5s"
+      />
+    </line>
+
+    <% if (type === 'histogram') { %>
+    <line
+      x1="<%= itemWidth * (i + 1.5) %>"
+      y1="<%= viewHeight + 60 - (list[i].v / maxValue) * viewHeight %>"
+      x2="<%= itemWidth * (i + 1.5) %>"
+      y2="<%= viewHeight + 60 %>"
+      stroke-width="20" 
+      stroke="#<%= color %>"
+    >
+      <animate
+        attributeName="y1"
+        from="<%= viewHeight + 60 %>"
+        to="<%= viewHeight + 60 - (list[i].v / maxValue) * viewHeight %>"
+        dur="0.5s"
+      />
+    </line>
+    <% } %>
+
+  <% } %>
+
+  <path d="<%= dPath %>" stroke-width="2" fill="none" stroke="#<%= color %>">
+    <animate
+        attributeName="d"
+        from="<%= initDPath %>"
+        to="<%= dPath %>"
+        dur="0.5s"
+      />
+  </path>
+</svg>
+
